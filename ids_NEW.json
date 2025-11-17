@@ -46,6 +46,7 @@
     {"device_type": "pencilbeam", "mbid": "8c00000067495e42", "icmid": "5c000030c308312d", "prod_id": "PB_12", "name": "Omphalotus_Subilludens"},
     {"device_type": "pencilbeam", "mbid": "3500000067471c42", "icmid": "f200000f189bf52d", "prod_id": "PB_13", "name": "Lumos"},
     
+    {"device_type": "wom", "mbid": "", "icmid": "", "prod_id": "WOM_01", "name": "WOM_Snow"},
     {"device_type": "wom", "mbid": "2e000000676ae042", "icmid": "bd000030c340b52d", "prod_id": "WOM_02", "name": "WOMit"},
     {"device_type": "wom", "mbid": "c7000000674be442", "icmid": "f7000030c307e12d", "prod_id": "WOM_03", "name": "Willy_WOMka"},
     {"device_type": "wom", "mbid": "c50000006777d942", "icmid": "af000030c341272d", "prod_id": "WOM_04", "name": "SchlickWOM"},
@@ -53,6 +54,7 @@
     {"device_type": "wom", "mbid": "3500000067779e42", "icmid": "92000030c2fd232d", "prod_id": "WOM_06", "name": "Eisgekuehlter_WOMmerlunder"},
     {"device_type": "wom", "mbid": "b3000000674a3842", "icmid": "23000030c346a62d", "prod_id": "WOM_07", "name": "WOMderwall"},
     {"device_type": "wom", "mbid": "22000000672b8542", "icmid": "a3000030c3437f2d", "prod_id": "WOM_08", "name": "WOMoeglich"},
+    {"device_type": "wom", "mbid": "8d000000671c3942", "icmid": "a3000030c317842d", "prod_id": "WOM_09_NTS", "name": "WOMovych"},
     {"device_type": "wom", "mbid": "5c00000067493042", "icmid": "dc000030c347042d", "prod_id": "WOM_10", "name": "Doctor_WOM"},
     {"device_type": "wom", "mbid": "c6000000674c2e42", "icmid": "fd000030c346b12d", "prod_id": "WOM_11", "name": "KaWOM"},
     {"device_type": "wom", "mbid": "e0000000674b7d42", "icmid": "ca000030c343cd2d", "prod_id": "WOM_12", "name": "SuperWOMan"},
