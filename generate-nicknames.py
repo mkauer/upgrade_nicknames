@@ -14,7 +14,6 @@ valid_date = '2025-11-13'
 def main():
 
     cmdparser = argparse.ArgumentParser()
-    #cmdparser.add_argument(dest='dtype', help='device type')
     cmdparser.add_argument('-nt','--no-tunnel', dest='tunnel', action='store_false',
                            help='Do not port forward mongodb server')
     args = cmdparser.parse_args()
@@ -28,17 +27,6 @@ def main():
     if not mongo.isConnected:
         print('no connection')
         return
-
-    # current list from mongo by John J
-    # mongo.db.stf_spat_devices.find({}).sort({'timestamp': -1}).limit(1)
-    #spatfile = 'spat_devices.json'
-    """
-    spatfile = '../spat_devices_v2_fix-pdom-mbids.json'
-    with open(spatfile, 'r') as jfile:
-        temp = json.load(jfile)
-        spats = temp['devices']
-        comments = temp['comments']
-    """
     
     # files I create (device-lookup.py for example)
     fats = []
@@ -111,41 +99,15 @@ def main():
                     print()
                     
     """
-    print('THESE WERE REMOVED')
+    print(' THESE WERE REMOVED')
+    print('==================================')
     for device in gotpopped:
         print(device)
+    print('==================================')
     """
-    """
-    print("SPAT double check...")
-    new_spats = []
-    for fat in fats:
-        found = False
-        if not fat['mbid']:
-            print(f"WARNING: no MBID for {fat}")
-            continue
-        for spat in spats:
-            if fat['mbid'] == spat['mbid']:
-                if not fat['icmid']:
-                    print(f"WARNING: no ICMID for {spat['dut_type']} MBID {spat['mbid']}")
-                spat['prod_id'] = fat['prod_id']
-                spat['icmid'] = fat['icmid']
-                if 'uid' in fat:
-                    spat['fatcat_uid'] = fat['uid']
-                spat['name'] = fat['name']
-                found = True
-                break
-        if found:
-            new_spats.append(spat)
-        else:
-            new_spats.append(fat)
-    """
-    
-    #total_devices = len(new_spats)
+
     total_devices = len(fats)
     comments = [
-        #'using the [new_spats] list',
-        #'using the [fats] list',
-        #'trying a different [round_2] method to make sure things are consistent',
         f'{total_devices} TOTAL devices'
     ]
     counts = {}
@@ -160,93 +122,15 @@ def main():
     devices = {
         'timestamp' : valid_date,
         'comments': comments,
-        #'devices': new_spats
         'devices': fats
     }
     print(f"\n{len(devices['devices'])} total devices found")
-    #fname = 'spat_devices_v11.json' # new_spats
-    #fname = 'spat_devices_v12.json' # fats
     fname = 'upgrade_nicknames.json' # fats
     with open(fname, 'w') as jfile:
         json.dump(devices, jfile, separators=(', ', ': '), indent=4)
     
     
     return
-
-
-def getNickname(uid):
-    nicknames = {
-        
-    }
-    
-    return
-
-
-def checkFatcat(uid, mongo):
-    fpd = findParentDevices(uid, mongo)
-    if len(fpd.parents) != 0:
-        #print('[{0}] is not associated with any devices'.format(fpd.uid))
-        for device in fpd.parents:
-            print('\tuid: \"{0}\",  device_type: \"{1}\"'
-                  .format(device['uid'], device['device_type']))
-    return
-
-
-class findParentDevices:
-    
-    def __init__(self, uid, mongoObj=False):
-        if not mongoObj:
-            self.mongo = MongoReader()
-        else:
-            self.mongo = mongoObj
-        self.uid = uid
-        self.parents = []
-        if self.searchForDevice():
-            #print('Found device [{0}], searching for associations...'.format(self.uid))
-            self.findAssociationTree()
-            
-        
-    def searchForDevice(self):
-        if not self.mongo.findDeviceByUID(self.uid):
-            devs = self.mongo.findDeviceByGenericID(self.uid)
-            if not devs:
-                print('\tDevice [{0}] is not in the database'.format(self.uid))
-                return False
-            elif len(devs) > 1:
-                print('\tFound multiple matches...')
-                for i, dev in enumerate(devs):
-                    print('\t   [{2}] : device \"{0}\" uid \"{1}\"'
-                          .format(dev['device_type'], dev['uid'], i+1))
-                select = input('Select [1-{0}]: '.format(len(devs)))
-                try:
-                    select = int(select)
-                except:
-                    print('quitting, not int')
-                    return False
-                if select not in list(range(1, len(devs)+1)):
-                    print('quitting, not in range')
-                    return False
-                self.uid = devs[select-1]['uid']
-                return True
-            else:
-                self.uid = devs[0]['uid']
-                return True
-        else:
-            return True
-    
-    
-    def findAssociationTree(self):
-        ids = self.mongo.findDeviceAssociationByIndex(self.uid)
-        if ids:
-            devs = []
-            for _id in ids:
-                devs.extend(self.mongo.findDeviceByUID(_id))
-        # indexes might not be up-to-date, so then check the slower way
-        else:
-            devs = self.mongo.findDeviceAssociationByUID(self.uid)
-
-        self.parents = devs
-        return
 
     
 if __name__ == "__main__":
