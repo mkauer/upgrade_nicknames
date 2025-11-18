@@ -88,13 +88,13 @@
     {"device_type": "seismometer", "mbid": "9f00000067608a42", "icmid": "f3000030c24c6a2d", "prod_id": "SM_04", "name": "Charles_Hutt"},
     {"device_type": "seismometer", "mbid": "17000000674b8a42", "icmid": "21000030c307ba2d", "prod_id": "SM_05", "name": "Tyler_Storm"},
 
-    {"device_type": "swedencamera", "mbid": "c8000030c345882d", "icmid": "2e00000067464742", "prod_id": "SC_NTS", "name": "SweCam_NTS"},
+    {"device_type": "swedencamera", "mbid": "2e00000067464742", "icmid": "c8000030c345882d", "prod_id": "SC_NTS", "name": "SweCam_NTS"},
     {"device_type": "swedencamera", "mbid": "c80000006721ff42", "icmid": "89000030c2fd612d", "prod_id": "SC_01", "name": "SweCam_01"},
     {"device_type": "swedencamera", "mbid": "770000006749c342", "icmid": "6e000030c24bf62d", "prod_id": "SC_02", "name": "SweCam_02"},
     {"device_type": "swedencamera", "mbid": "bb000000675db242", "icmid": "d5000030c2fcd82d", "prod_id": "SC_03", "name": "SweCam_03"},
     {"device_type": "swedencamera", "mbid": "2a00000067221842", "icmid": "2e000030c30dbc2d", "prod_id": "SC_04", "name": "SweCam_04"},
     {"device_type": "swedencamera", "mbid": "b70000006722cb42", "icmid": "27000030c340d62d", "prod_id": "SC_05", "name": "SweCam_05"},
     {"device_type": "swedencamera", "mbid": "dd000000675dfc42", "icmid": "ce000030c3081e2d", "prod_id": "SC_06", "name": "SweCam_06"},
-    {"device_type": "swedencamera", "mbid": "9b000030c307f02d", "icmid": "6400000067447842", "prod_id": "SC_07", "name": "SweCam_07"}
+    {"device_type": "swedencamera", "mbid": "6400000067447842", "icmid": "9b000030c307f02d", "prod_id": "SC_07", "name": "SweCam_07"}
     
 ]
