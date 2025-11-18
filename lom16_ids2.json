@@ -1,0 +1,82 @@
+[
+    {
+        "device_type": "lom16", 
+        "fatcat_uid": "lom16_07", 
+        "prod_date": "2025-02-01", 
+        "name": "Hutch", 
+        "prod_id": "lom16_07", 
+        "icmid": "d5000030c3122f2d", 
+        "mbid": "3f000000676afd42", 
+        "mbsn": "98"
+    }, 
+    {
+        "device_type": "lom16", 
+        "fatcat_uid": "lom16_03", 
+        "prod_date": "2024-07-15", 
+        "name": "Chargeback", 
+        "prod_id": "lom16_03", 
+        "icmid": "ed000030c343542d", 
+        "mbid": "65000000674c3542", 
+        "mbsn": "39"
+    }, 
+    {
+        "device_type": "lom16", 
+        "fatcat_uid": "lom16_04", 
+        "prod_date": "2024-11-25", 
+        "name": "Frostbyte", 
+        "prod_id": "lom16_04", 
+        "icmid": "38000030c307eb2d", 
+        "mbid": "b3000000674c6e42", 
+        "mbsn": "67"
+    }, 
+    {
+        "device_type": "lom16", 
+        "fatcat_uid": "lom16_05", 
+        "prod_date": "2024-12-16", 
+        "name": "Westfalian_Watcher", 
+        "prod_id": "lom16_05", 
+        "icmid": "89000030c3077b2d", 
+        "mbid": "6800000067607d42", 
+        "mbsn": "83"
+    }, 
+    {
+        "device_type": "lom16", 
+        "fatcat_uid": "lom16_06", 
+        "prod_date": "2025-01-15", 
+        "name": "Starspawn", 
+        "prod_id": "lom16_06", 
+        "icmid": "38000030c3503b2d", 
+        "mbid": "9b000000672c1642", 
+        "mbsn": "27"
+    }, 
+    {
+        "device_type": "lom16", 
+        "fatcat_uid": "lom16_08", 
+        "prod_date": "2025-06-01", 
+        "name": "Colossal_Squid", 
+        "prod_id": "lom16_08", 
+        "icmid": "23000030c30b052d", 
+        "mbid": "5f0000006711f142", 
+        "mbsn": "8"
+    }, 
+    {
+        "device_type": "lom16", 
+        "fatcat_uid": "lom16_01", 
+        "prod_date": "2023-07-01", 
+        "name": "Nyx", 
+        "prod_id": "lom16_01", 
+        "icmid": "8f000030c2c2512d", 
+        "mbid": "c600000067608942", 
+        "mbsn": "97"
+    }, 
+    {
+        "device_type": "lom16", 
+        "fatcat_uid": "lom16_02", 
+        "prod_date": "2024-07-15", 
+        "name": "Stick_of_Butter", 
+        "prod_id": "lom16_02", 
+        "icmid": "b7000030c30b1f2d", 
+        "mbid": "07000000672a1642", 
+        "mbsn": "96"
+    }
+]

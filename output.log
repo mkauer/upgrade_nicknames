@@ -1,0 +1,61 @@
+WARNING: no MBID:
+    LOM16-09           2001-01-01 - MBID:  ICMID:  - removed
+
+WARNING: no MBID:
+    WOM_01             2001-01-01 - MBID:  ICMID:  - removed
+
+WARNING: duplicate MBID:
+    mDOM_D124_v2       2024-11-20 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d
+    mDOM_D226_v1       2024-12-11 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d
+    mDOM_D124_v2       2024-11-20 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d - removed
+WARNING: duplicate ICMID:
+    mDOM_D124_v2       2024-11-20 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d
+    mDOM_D226_v1       2024-12-11 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d
+    mDOM_D124_v2       2024-11-20 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d - removed
+
+WARNING: duplicate MBID:
+    mDOM_D147_v1       2024-05-16 - MBID: 92000000662fac42 ICMID: 2800000fd3dfd42d
+    mDOM_D219_v1       2025-04-23 - MBID: 92000000662fac42 ICMID: 2800000fd3dfd42d
+    mDOM_D147_v1       2024-05-16 - MBID: 92000000662fac42 ICMID: 2800000fd3dfd42d - removed
+WARNING: duplicate ICMID:
+    mDOM_D147_v1       2024-05-16 - MBID: 92000000662fac42 ICMID: 2800000fd3dfd42d
+    mDOM_D219_v1       2025-04-23 - MBID: 92000000662fac42 ICMID: 2800000fd3dfd42d
+    mDOM_D147_v1       2024-05-16 - MBID: 92000000662fac42 ICMID: 2800000fd3dfd42d - removed
+
+WARNING: duplicate MBID:
+    mDOM_D149_v1       2024-05-17 - MBID: af00000065839142 ICMID: 86000011abeffd2d
+    mDOM_D218_v1       2025-04-23 - MBID: af00000065839142 ICMID: 86000011abeffd2d
+    mDOM_D149_v1       2024-05-17 - MBID: af00000065839142 ICMID: 86000011abeffd2d - removed
+WARNING: duplicate ICMID:
+    mDOM_D149_v1       2024-05-17 - MBID: af00000065839142 ICMID: 86000011abeffd2d
+    mDOM_D218_v1       2025-04-23 - MBID: af00000065839142 ICMID: 86000011abeffd2d
+    mDOM_D149_v1       2024-05-17 - MBID: af00000065839142 ICMID: 86000011abeffd2d - removed
+
+WARNING: duplicate MBID:
+    mDOM_D226_v1       2024-12-11 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d
+    mDOM_D148_v1       2024-05-30 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d
+    mDOM_D148_v1       2024-05-30 - MBID: f6000000689e7d42 ICMID: 8d000032357c2b2d - removed
+WARNING: duplicate ICMID:
+    mDOM_D226_v1       2024-12-11 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d
+    mDOM_D148_v1       2024-05-30 - MBID: 8800000066ac6c42 ICMID: 6b000011ac151e2d
+    mDOM_D148_v1       2024-05-30 - MBID: 8800000066ac6c42 ICMID: 8d000032357c2b2d - removed
+
+WARNING: no MBID:
+    DEgg2021-3-077_v1  2021-07-28 - MBID:  ICMID: f3000030c358df2d - removed
+
+WARNING: no MBID:
+    DEgg2021-3-045_v1  2021-07-01 - MBID:  ICMID: a800000f1734a32d - removed
+
+13 acoustic devices
+8 lom-16 devices
+8 lom-18 devices
+13 pencilbeam devices
+11 wom devices
+22 pdom devices
+4 seismometer devices
+8 swedencamera devices
+26 pocam devices
+443 mdom devices
+306 degg devices
+
+862 total devices found
