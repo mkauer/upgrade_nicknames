@@ -58,7 +58,7 @@
     {"device_type": "wom", "mbid": "5c00000067493042", "icmid": "dc000030c347042d", "prod_id": "WOM_10", "name": "Doctor_WOM"},
     {"device_type": "wom", "mbid": "c6000000674c2e42", "icmid": "fd000030c346b12d", "prod_id": "WOM_11", "name": "KaWOM"},
     {"device_type": "wom", "mbid": "e0000000674b7d42", "icmid": "ca000030c343cd2d", "prod_id": "WOM_12", "name": "SuperWOMan"},
-    
+        
     {"device_type": "pdom", "mbid": "ac0000007e8e5542", "icmid": "c9000032357c5f2d", "prod_id": "PDOM-AC5", "name": "Perry_DOM"},
     {"device_type": "pdom", "mbid": "ee0000007e628942", "icmid": "5c000011abefcc2d", "prod_id": "PDOM-EE9", "name": "Precision_DOM"},
     {"device_type": "pdom", "mbid": "0d0000007f6e3442", "icmid": "2b000011ac154c2d", "prod_id": "PDOM-0D4", "name": "Pico_DOM"},
@@ -77,6 +77,7 @@
     {"device_type": "pdom", "mbid": "300000007e60ac42", "icmid": "ff000011abefd72d", "prod_id": "PDOM-30C", "name": "Pauli_DOM"},
     {"device_type": "pdom", "mbid": "5c0000007e628f42", "icmid": "ed00003009dd552d", "prod_id": "PDOM-5CF", "name": "Pentose_DOM"},
     {"device_type": "pdom", "mbid": "280000007f92aa42", "icmid": "4700003009c2892d", "prod_id": "PDOM-28A", "name": "Pheromone_DOM"},
+    {"device_type": "pdom", "mbid": "720000007f0e3642", "icmid": "72000011ac154f2d", "prod_id": "PDOM-726_NTS", "name": "Perpetuity_DOM"},
     
     {"device_type": "pdom", "mbid": "bf0000007e8e5b42", "icmid": "db000032357b9b2d", "prod_id": "FDOM-BFB", "name": "Ferry_DOM"},
     {"device_type": "pdom", "mbid": "a40000007f926442", "icmid": "01000032357ce52d", "prod_id": "FDOM-A44", "name": "Femto_DOM"},

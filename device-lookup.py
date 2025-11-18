@@ -92,7 +92,7 @@ def main():
                     if item['type'] == 'eeprom':
                         dat['icmid'] = item['id']
                         
-        if args.dtype in ['degg', 'mdom']:
+        if args.dtype in ['degg', 'mdom', 'lom16', 'lom18']:
             dat['subdevices'] = sorted(duid['devices'])
         
         data.append(dat)

@@ -1,13 +1,13 @@
 {
-    "timestamp": "2025-11-13", 
+    "timestamp": "2025-11-18", 
     "comments": [
-        "862 TOTAL devices", 
+        "863 TOTAL devices", 
         "13 acoustic devices", 
         "8 lom-16 devices", 
         "8 lom-18 devices", 
         "13 pencilbeam devices", 
         "11 wom devices", 
-        "22 pdom devices", 
+        "23 pdom devices", 
         "4 seismometer devices", 
         "8 swedencamera devices", 
         "26 pocam devices", 
@@ -514,6 +514,13 @@
         }, 
         {
             "device_type": "pdom", 
+            "mbid": "720000007f0e3642", 
+            "icmid": "72000011ac154f2d", 
+            "prod_id": "PDOM-726_NTS", 
+            "name": "Perpetuity_DOM"
+        }, 
+        {
+            "device_type": "pdom", 
             "mbid": "bf0000007e8e5b42", 
             "icmid": "db000032357b9b2d", 
             "prod_id": "FDOM-BFB", 
@@ -570,8 +577,8 @@
         }, 
         {
             "device_type": "swedencamera", 
-            "mbid": "c8000030c345882d", 
-            "icmid": "2e00000067464742", 
+            "mbid": "2e00000067464742", 
+            "icmid": "c8000030c345882d", 
             "prod_id": "SC_NTS", 
             "name": "SweCam_NTS"
         }, 
@@ -619,8 +626,8 @@
         }, 
         {
             "device_type": "swedencamera", 
-            "mbid": "9b000030c307f02d", 
-            "icmid": "6400000067447842", 
+            "mbid": "6400000067447842", 
+            "icmid": "9b000030c307f02d", 
             "prod_id": "SC_07", 
             "name": "SweCam_07"
         }, 
