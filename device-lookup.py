@@ -98,7 +98,7 @@ def main():
         data.append(dat)
 
     print(len(data), args.dtype+'s', 'found')
-    filename = args.dtype+'_ids2.json'
+    filename = 'ids_'+args.dtype+'.json'
     with open(filename, 'w') as jfile:
         json.dump(data, jfile, separators=(', ', ': '), indent=4)
     

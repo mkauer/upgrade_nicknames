@@ -35,7 +35,7 @@ def main():
     mbids = []
     icmids = []
     gotpopped = []
-    for dt in ['NEW', 'pocam', 'mdom', 'degg']:
+    for dt in ['NEW', 'lom16', 'lom18', 'pocam', 'mdom', 'degg']:
         with open('ids_'+dt+'.json', 'r') as jfile:
             fat = json.load(jfile)
             for item in fat:
