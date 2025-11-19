@@ -1,16 +1,15 @@
 {
-    "timestamp": "2025-11-18", 
+    "timestamp": "2025-11-19", 
     "comments": [
         "863 TOTAL devices", 
         "13 acoustic devices", 
-        "1 lom-18 devices", 
+        "8 lom18 devices", 
         "13 pencilbeam devices", 
         "11 wom devices", 
         "23 pdom devices", 
         "4 seismometer devices", 
         "8 swedencamera devices", 
         "8 lom16 devices", 
-        "7 lom18 devices", 
         "26 pocam devices", 
         "443 mdom devices", 
         "306 degg devices"
@@ -108,10 +107,10 @@
             "name": "Daniel"
         }, 
         {
-            "device_type": "lom-18", 
+            "device_type": "lom18", 
             "mbid": "5500000067786242", 
             "icmid": "7000000f188c842d", 
-            "prod_id": "LOM18-01", 
+            "prod_id": "lom18_01", 
             "name": "Mokumokuren"
         }, 
         {
@@ -286,161 +285,161 @@
             "device_type": "pdom", 
             "mbid": "ac0000007e8e5542", 
             "icmid": "c9000032357c5f2d", 
-            "prod_id": "PDOM-AC5", 
+            "prod_id": "PDOM_AC5", 
             "name": "Perry_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "ee0000007e628942", 
             "icmid": "5c000011abefcc2d", 
-            "prod_id": "PDOM-EE9", 
+            "prod_id": "PDOM_EE9", 
             "name": "Precision_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "0d0000007f6e3442", 
             "icmid": "2b000011ac154c2d", 
-            "prod_id": "PDOM-0D4", 
+            "prod_id": "PDOM_0D4", 
             "name": "Pico_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "9d0000007e8e6142", 
             "icmid": "0c000011ac14cc2d", 
-            "prod_id": "PDOM-9D1", 
+            "prod_id": "PDOM_9D1", 
             "name": "Parallax_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "f60000007e625d42", 
             "icmid": "e0000032357ae92d", 
-            "prod_id": "PDOM-F6D", 
+            "prod_id": "PDOM_F6D", 
             "name": "Peta_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "2d0000007e8e7442", 
             "icmid": "cd000011abef752d", 
-            "prod_id": "PDOM-2D4", 
+            "prod_id": "PDOM_2D4", 
             "name": "Positron_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "0a0000007e627042", 
             "icmid": "7d000011ac14aa2d", 
-            "prod_id": "PDOM-0A0", 
+            "prod_id": "PDOM_0A0", 
             "name": "Planck_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "c70000007e626942", 
             "icmid": "c3000032357c002d", 
-            "prod_id": "PDOM-C79", 
+            "prod_id": "PDOM_C79", 
             "name": "Primordial_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "080000007e626342", 
             "icmid": "1b000032357c222d", 
-            "prod_id": "PDOM-083", 
+            "prod_id": "PDOM_083", 
             "name": "Photoelectric_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "240000007f6ed442", 
             "icmid": "94000011abef762d", 
-            "prod_id": "PDOM-244", 
+            "prod_id": "PDOM_244", 
             "name": "Plasmid_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "b00000007e5f0d42", 
             "icmid": "dc000011ac16902d", 
-            "prod_id": "PDOM-B0D", 
+            "prod_id": "PDOM_B0D", 
             "name": "Pyroclastic_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "b00000007f6ece42", 
             "icmid": "b600003009dc5c2d", 
-            "prod_id": "PDOM-B0E", 
+            "prod_id": "PDOM_B0E", 
             "name": "Permafrost_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "c80000007e629542", 
             "icmid": "270000323584892d", 
-            "prod_id": "PDOM-C85", 
+            "prod_id": "PDOM_C85", 
             "name": "Phosphorescence_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "380000007e8e4f42", 
             "icmid": "98000032357b5f2d", 
-            "prod_id": "PDOM-38F", 
+            "prod_id": "PDOM_38F", 
             "name": "Paramagnetism_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "cd0000007f6ec242", 
             "icmid": "9a00003009dd062d", 
-            "prod_id": "PDOM-CD2", 
+            "prod_id": "PDOM_CD2", 
             "name": "Pascal_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "300000007e60ac42", 
             "icmid": "ff000011abefd72d", 
-            "prod_id": "PDOM-30C", 
+            "prod_id": "PDOM_30C", 
             "name": "Pauli_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "5c0000007e628f42", 
             "icmid": "ed00003009dd552d", 
-            "prod_id": "PDOM-5CF", 
+            "prod_id": "PDOM_5CF", 
             "name": "Pentose_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "280000007f92aa42", 
             "icmid": "4700003009c2892d", 
-            "prod_id": "PDOM-28A", 
+            "prod_id": "PDOM_28A", 
             "name": "Pheromone_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "720000007f0e3642", 
             "icmid": "72000011ac154f2d", 
-            "prod_id": "PDOM-726_NTS", 
+            "prod_id": "PDOM_726_NTS", 
             "name": "Perpetuity_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "bf0000007e8e5b42", 
             "icmid": "db000032357b9b2d", 
-            "prod_id": "FDOM-BFB", 
+            "prod_id": "FDOM_BFB", 
             "name": "Ferry_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "a40000007f926442", 
             "icmid": "01000032357ce52d", 
-            "prod_id": "FDOM-A44", 
+            "prod_id": "FDOM_A44", 
             "name": "Femto_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "d100000078386842", 
             "icmid": "0d000011abef832d", 
-            "prod_id": "FDOM-D18", 
+            "prod_id": "FDOM_D18", 
             "name": "Faraday_DOM"
         }, 
         {
             "device_type": "pdom", 
             "mbid": "6c0000007e68c442", 
             "icmid": "74000032357af32d", 
-            "prod_id": "FDOM-6C4", 
+            "prod_id": "FDOM_6C4", 
             "name": "Fluorescence_DOM"
         }, 
         {

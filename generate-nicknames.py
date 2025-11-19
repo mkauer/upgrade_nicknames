@@ -9,7 +9,7 @@ from fatcat_db.forwarder import Tunnel
 from fatcat_db.mongoreader import MongoReader
 
 
-valid_date = '2025-11-18'
+valid_date = '2025-11-19'
 
 def main():
 
