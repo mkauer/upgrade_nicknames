@@ -9,7 +9,8 @@ from fatcat_db.forwarder import Tunnel
 from fatcat_db.mongoreader import MongoReader
 
 
-valid_date = '2025-11-19'
+valid_date = '2025-12-17'
+write = 1
 
 def main():
 
@@ -58,25 +59,33 @@ def main():
                 if item['mbid'] in mbids:
                     i = mbids.index(item['mbid'])
                     print(f"WARNING: duplicate MBID:")
-                    print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
-                    print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
+                    #print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
+                    #print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
                     if pdate > pdates[i]:
                         popi = i
+                        print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
+                        print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
                     else:
                         popi = -1
-                    print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
+                        print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
+                        print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
+                    #print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
                 mbids.append(item['mbid'])
                 
                 if item['icmid'] in icmids:
                     i = icmids.index(item['icmid'])
                     print(f"WARNING: duplicate ICMID:")
-                    print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
-                    print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
+                    #print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
+                    #print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
                     if pdate > pdates[i]:
                         popi = i
+                        print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
+                        print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
                     else:
                         popi = -1
-                    print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
+                        print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
+                        print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
+                    #print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
                 icmids.append(item['icmid'])
                 
                 fats.append(item)
@@ -98,13 +107,11 @@ def main():
                     icmids.pop(popi)
                     print()
                     
-    """
-    print(' THESE WERE REMOVED')
-    print('==================================')
+    
+    print('THESE WERE REMOVED')
     for device in gotpopped:
-        print(device)
-    print('==================================')
-    """
+        print(device['device_type'], device['prod_id'], device['mbid'], device['icmid'])
+    print()
 
     total_devices = len(fats)
     comments = [
@@ -125,10 +132,10 @@ def main():
         'devices': fats
     }
     print(f"\n{len(devices['devices'])} total devices found")
-    fname = 'upgrade_nicknames.json' # fats
-    with open(fname, 'w') as jfile:
-        json.dump(devices, jfile, separators=(', ', ': '), indent=4)
-    
+    fname = 'upgrade_devices_'+valid_date+'.json' # fats
+    if write:
+        with open(fname, 'w') as jfile:
+            json.dump(devices, jfile, separators=(', ', ': '), indent=4)
     
     return
 

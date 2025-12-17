@@ -1,15 +1,15 @@
 {
-    "timestamp": "2025-11-19", 
+    "timestamp": "2025-12-17", 
     "comments": [
-        "863 TOTAL devices", 
+        "862 TOTAL devices", 
         "13 acoustic devices", 
-        "8 lom18 devices", 
         "13 pencilbeam devices", 
         "11 wom devices", 
         "23 pdom devices", 
         "4 seismometer devices", 
         "8 swedencamera devices", 
         "8 lom16 devices", 
+        "7 lom18 devices", 
         "26 pocam devices", 
         "443 mdom devices", 
         "306 degg devices"
@@ -105,13 +105,6 @@
             "icmid": "d0000030c228ac2d", 
             "prod_id": "AM_12", 
             "name": "Daniel"
-        }, 
-        {
-            "device_type": "lom18", 
-            "mbid": "5500000067786242", 
-            "icmid": "7000000f188c842d", 
-            "prod_id": "lom18_01", 
-            "name": "Mokumokuren"
         }, 
         {
             "device_type": "pencilbeam", 
@@ -257,7 +250,7 @@
             "device_type": "wom", 
             "mbid": "8d000000671c3942", 
             "icmid": "a3000030c317842d", 
-            "prod_id": "WOM_09_NTS", 
+            "prod_id": "WOM_09", 
             "name": "WOMovych"
         }, 
         {
@@ -307,7 +300,7 @@
             "mbid": "9d0000007e8e6142", 
             "icmid": "0c000011ac14cc2d", 
             "prod_id": "PDOM_9D1", 
-            "name": "Parallax_DOM"
+            "name": "Paloma_DOM"
         }, 
         {
             "device_type": "pdom", 
@@ -405,7 +398,7 @@
             "mbid": "280000007f92aa42", 
             "icmid": "4700003009c2892d", 
             "prod_id": "PDOM_28A", 
-            "name": "Pheromone_DOM"
+            "name": "Parlos_DOM"
         }, 
         {
             "device_type": "pdom", 
@@ -419,7 +412,7 @@
             "mbid": "bf0000007e8e5b42", 
             "icmid": "db000032357b9b2d", 
             "prod_id": "FDOM_BFB", 
-            "name": "Ferry_DOM"
+            "name": "Fuzzy_DOM"
         }, 
         {
             "device_type": "pdom", 
@@ -472,8 +465,8 @@
         }, 
         {
             "device_type": "swedencamera", 
-            "mbid": "2e00000067464742", 
-            "icmid": "c8000030c345882d", 
+            "mbid": "c8000030c345882d", 
+            "icmid": "2e00000067464742", 
             "prod_id": "SC_NTS", 
             "name": "SweCam_NTS"
         }, 
@@ -521,8 +514,8 @@
         }, 
         {
             "device_type": "swedencamera", 
-            "mbid": "6400000067447842", 
-            "icmid": "9b000030c307f02d", 
+            "mbid": "9b000030c307f02d", 
+            "icmid": "6400000067447842", 
             "prod_id": "SC_07", 
             "name": "SweCam_07"
         }, 
