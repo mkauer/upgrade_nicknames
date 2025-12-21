@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import sys
-import argparse
 import json
 import datetime
 
@@ -14,23 +13,6 @@ write = 1
 
 def main():
     
-    cmdparser = argparse.ArgumentParser()
-    cmdparser.add_argument('-nt','--no-tunnel', dest='tunnel', action='store_false',
-                           help='Do not port forward mongodb server')
-    args = cmdparser.parse_args()
-    """
-    # open ssh tunnel to mongo port
-    if args.tunnel: tunnel = Tunnel()
-
-    # connect to mongo
-    mongo = MongoReader(database='production_calibration',
-                        user='icecube', pswd='skua')
-    if not mongo.isConnected:
-        print('no connection')
-        return
-    """
-    
-    # files I create (device-lookup.py for example)
     fats = []
     prodids = []
     pdates = []
@@ -60,8 +42,6 @@ def main():
                 if item['mbid'] in mbids:
                     i = mbids.index(item['mbid'])
                     print(f"WARNING: duplicate MBID:")
-                    #print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
-                    #print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
                     if pdate > pdates[i]:
                         popi = i
                         print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
@@ -70,14 +50,11 @@ def main():
                         popi = -1
                         print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
                         print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
-                    #print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
                 mbids.append(item['mbid'])
                 
                 if item['icmid'] in icmids:
                     i = icmids.index(item['icmid'])
                     print(f"WARNING: duplicate ICMID:")
-                    #print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
-                    #print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
                     if pdate > pdates[i]:
                         popi = i
                         print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
@@ -86,7 +63,6 @@ def main():
                         popi = -1
                         print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
                         print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
-                    #print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
                 icmids.append(item['icmid'])
                 
                 fats.append(item)
@@ -127,16 +103,25 @@ def main():
     for dtype in counts:
         comments.append(f'{counts[dtype]} {dtype} devices')
         print(f'{counts[dtype]} {dtype} devices')
-    devices = {
+
+    devices = {}
+    for device in fats:
+        icmid = device['icmid']
+        if icmid in devices:
+            print(f'ERROR: [{icmid}] already exists')
+        devices[icmid] = device
+        
+    device_file = {
         'timestamp' : valid_date,
         'comments': comments,
-        'devices': fats
+        'devices': devices
     }
-    print(f"\n{len(devices['devices'])} total devices found")
+    
+    print(f"\n{len(device_file['devices'])} total devices found")
     fname = 'upgrade_devices_'+valid_date+'.json' # fats
     if write:
         with open(fname, 'w') as jfile:
-            json.dump(devices, jfile, separators=(', ', ': '), indent=4)
+            json.dump(device_file, jfile, separators=(', ', ': '), indent=4)
     
     return
 

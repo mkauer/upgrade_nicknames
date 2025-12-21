@@ -5,38 +5,33 @@ import json
 import argparse
 
 cmdparser = argparse.ArgumentParser()
-cmdparser.add_argument(dest='devices', help='give a devices file')
+cmdparser.add_argument(dest='devices', help='give Upgrade devices json file')
 args = cmdparser.parse_args()
     
-#newnames = 'upgrade_devices.json'
 newnames = args.devices
 with open(newnames, 'r') as jfile:
     upgrade = json.load(jfile)
 
-nicknames = 'gen1-nicknames.txt'
-with open(nicknames, 'r') as tfile:
-    gen1 = tfile.readlines()
+nicknames = 'gen1-nicknames.json'
+with open(nicknames, 'r') as jfile:
+    gen1 = json.load(jfile)
 
+gen1_names = []
+for key in gen1['devices']:
+    name = gen1['devices'][key]['name']
+    if name in gen1_names:
+        print(f'Gen1 [{name}] found in gen1_names')
+    gen1_names.append(name)
 
-allnames = []
-for name in gen1:
-    name = name.strip()
-    if name not in allnames:
-        allnames.append(name)
-    else:
-        print(f'found again : {name}')
-
+icu_names = []
 for key in upgrade['devices']:
-    if "name" in key:
-        name = key['name'].strip()
-        if name not in allnames:
-            allnames.append(name)
-        else:
-            for key2 in upgrade['devices']:
-                if "name" in key2:
-                    if name == key2['name'].strip():
-                        pid2 = key2['prod_id'].strip()
-                        break
-            pid = key['prod_id'].strip()
-            print(f'found \"{name}\" in [{pid2}] and [{pid}]')
+    name = upgrade['devices'][key]['name']
+    if name in gen1_names:
+        print(f'ICU [{name}] found in gen1_names')
+    if name in icu_names:
+        print(f'ICU [{name}] found in icu_names')
+    icu_names.append(name)
+
+print(f'{len(gen1_names)} Gen1 names')
+print(f'{len(icu_names)} ICU names')
 
