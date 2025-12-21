@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+
+import sys
+import os
+import json
+import argparse
+
+PATH = /home/mkauer/GITHUB/upgrade_nicknames
+
+cmdparser = argparse.ArgumentParser()
+cmdparser.add_argument(dest='ID', help='give a device ID')
+args = cmdparser.parse_args()
+ID = args.ID
+
+newnames = os.path.join(PATH, 'upgrade_devices.json')
+with open(newnames, 'r') as jfile:
+    upgrade = json.load(jfile)
+
+nicknames = os.path.join(PATH, 'gen1-nicknames.json')
+with open(nicknames, 'r') as jfile:
+    gen1 = json.load(jfile)
+
+if ID in gen1:
+    print(gen1[ID])
+if ID in upgrade:
+    print(upgrade[ID])
+
