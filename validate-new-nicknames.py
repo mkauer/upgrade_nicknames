@@ -2,9 +2,14 @@
 
 import sys
 import json
+import argparse
 
-
-newnames = 'upgrade_devices.json'
+cmdparser = argparse.ArgumentParser()
+cmdparser.add_argument(dest='devices', help='give a devices file')
+args = cmdparser.parse_args()
+    
+#newnames = 'upgrade_devices.json'
+newnames = args.devices
 with open(newnames, 'r') as jfile:
     upgrade = json.load(jfile)
 

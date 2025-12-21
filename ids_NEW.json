@@ -13,7 +13,7 @@
     {"device_type": "acoustic", "mbid": "d100000067767e42", "icmid": "a5000030c359392d", "prod_id": "AM_11", "name": "Onew"},
     {"device_type": "acoustic", "mbid": "bd000000672c0a42", "icmid": "d0000030c228ac2d", "prod_id": "AM_12", "name": "Daniel"},
     
-    {"device_type": "pencilbeam", "mbid": "bc000000674c9242", "icmid": "62000030c264102d", "prod_id": "PB_01", "name": "Vampire_Squid"},
+    {"device_type": "pencilbeam", "mbid": "bc000000674c9242", "icmid": "62000030c264102d", "prod_id": "PB_01", "name": "Vampyroteuthis_Infernalis"},
     {"device_type": "pencilbeam", "mbid": "a5000000672b9142", "icmid": "bf000030c317762d", "prod_id": "PB_02", "name": "Fluorite"},
     {"device_type": "pencilbeam", "mbid": "b8000000674ae242", "icmid": "97000030c340c32d", "prod_id": "PB_03", "name": "Firefly"},
     {"device_type": "pencilbeam", "mbid": "c2000000674c0842", "icmid": "09000030c2c2c02d", "prod_id": "PB_04", "name": "Bombus_Polaris"},
@@ -26,8 +26,12 @@
     {"device_type": "pencilbeam", "mbid": "0c00000067786142", "icmid": "25000030c346932d", "prod_id": "PB_11", "name": "Dinoflagellates"},
     {"device_type": "pencilbeam", "mbid": "8c00000067495e42", "icmid": "5c000030c308312d", "prod_id": "PB_12", "name": "Omphalotus_Subilludens"},
     {"device_type": "pencilbeam", "mbid": "3500000067471c42", "icmid": "f200000f189bf52d", "prod_id": "PB_13", "name": "Lumos"},
-    
-    {"device_type": "lom16", "mbid": "", "icmid": "", "prod_id": "lom16_09", "name": "Mike"},
+
+    {"device_type": "pocam", "mbid": "e80000006724ab42", "icmid": "e3000030c346502d", "prod_id": "PC_001_NTS", "name": "Giant_Tubeworm"},
+
+    {"device_type": "lom16", "mbid": "b3000000675fcc42", "icmid": "88000030c3438c2d", "prod_id": "LOM16_00_NTS", "name": "Rosemont_La_Petite_Patrie"},
+    {"device_type": "lom16", "mbid": "", "icmid": "", "prod_id": "LOM16_09", "name": "Mike"},
+    {"device_type": "lom18", "mbid": "5500000067786242", "icmid": "7000000f188c842d", "prod_id": "LOM18_01", "name": "Mokumokuren"},
     
     {"device_type": "wom", "mbid": "", "icmid": "", "prod_id": "WOM_01", "name": "WOM_Snow"},
     {"device_type": "wom", "mbid": "2e000000676ae042", "icmid": "bd000030c340b52d", "prod_id": "WOM_02", "name": "WOMit"},
@@ -37,7 +41,7 @@
     {"device_type": "wom", "mbid": "3500000067779e42", "icmid": "92000030c2fd232d", "prod_id": "WOM_06", "name": "Eisgekuehlter_WOMmerlunder"},
     {"device_type": "wom", "mbid": "b3000000674a3842", "icmid": "23000030c346a62d", "prod_id": "WOM_07", "name": "WOMderwall"},
     {"device_type": "wom", "mbid": "22000000672b8542", "icmid": "a3000030c3437f2d", "prod_id": "WOM_08", "name": "WOMoeglich"},
-    {"device_type": "wom", "mbid": "8d000000671c3942", "icmid": "a3000030c317842d", "prod_id": "WOM_09", "name": "WOMovych"},
+    {"device_type": "wom", "mbid": "8d000000671c3942", "icmid": "a3000030c317842d", "prod_id": "WOM_09_NTS", "name": "WOMovych"},
     {"device_type": "wom", "mbid": "5c00000067493042", "icmid": "dc000030c347042d", "prod_id": "WOM_10", "name": "Doctor_WOM"},
     {"device_type": "wom", "mbid": "c6000000674c2e42", "icmid": "fd000030c346b12d", "prod_id": "WOM_11", "name": "KaWOM"},
     {"device_type": "wom", "mbid": "e0000000674b7d42", "icmid": "ca000030c343cd2d", "prod_id": "WOM_12", "name": "SuperWOMan"},
@@ -72,13 +76,13 @@
     {"device_type": "seismometer", "mbid": "9f00000067608a42", "icmid": "f3000030c24c6a2d", "prod_id": "SM_04", "name": "Charles_Hutt"},
     {"device_type": "seismometer", "mbid": "17000000674b8a42", "icmid": "21000030c307ba2d", "prod_id": "SM_05", "name": "Tyler_Storm"},
 
-    {"device_type": "swedencamera", "mbid": "c8000030c345882d", "icmid": "2e00000067464742", "prod_id": "SC_NTS", "name": "SweCam_NTS"},
+    {"device_type": "swedencamera", "mbid": "2e00000067464742", "icmid": "c8000030c345882d", "prod_id": "SC_NTS", "name": "SweCam_NTS"},
     {"device_type": "swedencamera", "mbid": "c80000006721ff42", "icmid": "89000030c2fd612d", "prod_id": "SC_01", "name": "SweCam_01"},
     {"device_type": "swedencamera", "mbid": "770000006749c342", "icmid": "6e000030c24bf62d", "prod_id": "SC_02", "name": "SweCam_02"},
     {"device_type": "swedencamera", "mbid": "bb000000675db242", "icmid": "d5000030c2fcd82d", "prod_id": "SC_03", "name": "SweCam_03"},
     {"device_type": "swedencamera", "mbid": "2a00000067221842", "icmid": "2e000030c30dbc2d", "prod_id": "SC_04", "name": "SweCam_04"},
     {"device_type": "swedencamera", "mbid": "b70000006722cb42", "icmid": "27000030c340d62d", "prod_id": "SC_05", "name": "SweCam_05"},
     {"device_type": "swedencamera", "mbid": "dd000000675dfc42", "icmid": "ce000030c3081e2d", "prod_id": "SC_06", "name": "SweCam_06"},
-    {"device_type": "swedencamera", "mbid": "9b000030c307f02d", "icmid": "6400000067447842", "prod_id": "SC_07", "name": "SweCam_07"}
+    {"device_type": "swedencamera", "mbid": "6400000067447842", "icmid": "9b000030c307f02d", "prod_id": "SC_07", "name": "SweCam_07"}
     
 ]

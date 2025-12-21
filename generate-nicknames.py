@@ -3,22 +3,22 @@
 import sys
 import argparse
 import json
-from datetime import datetime
+import datetime
 
 from fatcat_db.forwarder import Tunnel
 from fatcat_db.mongoreader import MongoReader
 
 
-valid_date = '2025-12-17'
+valid_date = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d")
 write = 1
 
 def main():
-
+    
     cmdparser = argparse.ArgumentParser()
     cmdparser.add_argument('-nt','--no-tunnel', dest='tunnel', action='store_false',
                            help='Do not port forward mongodb server')
     args = cmdparser.parse_args()
-
+    """
     # open ssh tunnel to mongo port
     if args.tunnel: tunnel = Tunnel()
 
@@ -28,6 +28,7 @@ def main():
     if not mongo.isConnected:
         print('no connection')
         return
+    """
     
     # files I create (device-lookup.py for example)
     fats = []

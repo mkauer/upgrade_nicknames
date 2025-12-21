@@ -1,16 +1,16 @@
 {
-    "timestamp": "2025-12-17", 
+    "timestamp": "2025-12-18", 
     "comments": [
-        "862 TOTAL devices", 
+        "863 TOTAL devices", 
         "13 acoustic devices", 
         "13 pencilbeam devices", 
+        "27 pocam devices", 
         "11 wom devices", 
         "23 pdom devices", 
         "4 seismometer devices", 
         "8 swedencamera devices", 
         "8 lom16 devices", 
         "7 lom18 devices", 
-        "26 pocam devices", 
         "443 mdom devices", 
         "306 degg devices"
     ], 
@@ -111,7 +111,7 @@
             "mbid": "bc000000674c9242", 
             "icmid": "62000030c264102d", 
             "prod_id": "PB_01", 
-            "name": "Vampire_Squid"
+            "name": "Vampyroteuthis_Ifernalis"
         }, 
         {
             "device_type": "pencilbeam", 
@@ -196,6 +196,13 @@
             "icmid": "f200000f189bf52d", 
             "prod_id": "PB_13", 
             "name": "Lumos"
+        }, 
+        {
+            "device_type": "pocam", 
+            "mbid": "e80000006724ab42", 
+            "icmid": "e3000030c346502d", 
+            "prod_id": "001", 
+            "name": "Moon_Jelly"
         }, 
         {
             "device_type": "wom", 
@@ -1940,7 +1947,8 @@
             "device_type": "pocam", 
             "fatcat_uid": "pocam-20250210_009", 
             "prod_date": "2025-02-10", 
-            "name": "Aequorea_Victoria", 
+            "_name_": "Aequorea_Victoria", 
+            "name": "Antarctic_Feather_Star", 
             "prod_id": "PC_009", 
             "icmid": "8c000030c350082d", 
             "mbid": "7a0000006722d242", 
