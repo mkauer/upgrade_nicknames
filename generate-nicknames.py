@@ -106,16 +106,25 @@ def main():
         print(f'{counts[dtype]} {dtype} devices')
 
     devices = {}
+    trimmed = {}
     for device in fats:
         icmid = device['icmid']
         if icmid in devices:
             print(f'ERROR: [{icmid}] already exists')
         devices[icmid] = device
+        if 'subdevices' in device:
+            del device['subdevices']
+        trimmed[icmid] = device
         
     device_file = {
         'timestamp' : valid_date,
         'comments': comments,
         'devices': devices
+    }
+    trimmed_file = {
+        'timestamp' : valid_date,
+        'comments': comments,
+        'devices': trimmed
     }
     
     print(f"\n{len(device_file['devices'])} total devices found")
@@ -124,7 +133,7 @@ def main():
         with open(fname, 'w') as jfile:
             json.dump(device_file, jfile, separators=(', ', ': '), indent=4)
         with open('upgrade_devices.json', 'w') as jfile:
-            json.dump(device_file, jfile, separators=(', ', ': '), indent=4)
+            json.dump(trimmed_file, jfile, separators=(', ', ': '), indent=4)
             
     return
 
