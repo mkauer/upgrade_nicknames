@@ -8,7 +8,7 @@ from fatcat_db.forwarder import Tunnel
 from fatcat_db.mongoreader import MongoReader
 
 
-valid_date = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d")
+valid_date = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d_%H:%M:%S")
 write = 1
 
 def main():
@@ -29,7 +29,6 @@ def main():
                 else:
                     prodid = item['prod_id']
                 prodids.append(prodid)
-                #print(prodid)
                 
                 if 'prod_date' in item:
                     pdate = item['prod_date']
@@ -39,9 +38,17 @@ def main():
                 
                 lj = 18
                 popi = None
-                if item['mbid'] in mbids:
-                    i = mbids.index(item['mbid'])
-                    print(f"WARNING: duplicate MBID:")
+                if item['mbid'] in mbids or item['icmid'] in icmids:
+                    if item['mbid'] in mbids:
+                        i = mbids.index(item['mbid'])
+                        print(f"WARNING: duplicate MBID:")
+                    if item['icmid'] in icmids:
+                        i = icmids.index(item['icmid'])
+                        print(f"WARNING: duplicate ICMID:")
+
+                    mbids.append(item['mbid'])
+                    icmids.append(item['icmid'])
+                    
                     if pdate > pdates[i]:
                         popi = i
                         print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
@@ -50,28 +57,22 @@ def main():
                         popi = -1
                         print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
                         print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
-                mbids.append(item['mbid'])
-                
-                if item['icmid'] in icmids:
-                    i = icmids.index(item['icmid'])
-                    print(f"WARNING: duplicate ICMID:")
-                    if pdate > pdates[i]:
-                        popi = i
-                        print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
-                        print(f"    {prodid.ljust(lj)} {pdate} - MBID: {item['mbid']} ICMID: {item['icmid']}")
-                    else:
-                        popi = -1
-                        print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
-                        print(f"    {prodids[i].ljust(lj)} {pdates[i]} - MBID: {mbids[i]} ICMID: {icmids[i]}")
-                icmids.append(item['icmid'])
+                    
+                else:
+                    mbids.append(item['mbid'])
+                    icmids.append(item['icmid'])
                 
                 fats.append(item)
                 
-                # keep track of oddballs
-                # DEgg2021-3-045_v1 and DEgg2021-3-077_v1
-                # are the only ones I've found so far
+                # Devices with no MBID
+                # oddballs (DEgg2021-3-045_v1 and DEgg2021-3-077_v1)
                 if item['mbid'] == "":
                     print(f"WARNING: no MBID:")
+                    popi = -1
+                    print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
+                # Devices with no ICMID
+                if item['icmid'] == "":
+                    print(f"WARNING: no ICMID:")
                     popi = -1
                     print(f"    {prodids[popi].ljust(lj)} {pdates[popi]} - MBID: {mbids[popi]} ICMID: {icmids[popi]} - removed")
                 
