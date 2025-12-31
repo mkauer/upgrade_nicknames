@@ -26,9 +26,20 @@
     {"device_type": "pencilbeam", "mbid": "0c00000067786142", "icmid": "25000030c346932d", "prod_id": "PB_11", "name": "Dinoflagellates"},
     {"device_type": "pencilbeam", "mbid": "8c00000067495e42", "icmid": "5c000030c308312d", "prod_id": "PB_12", "name": "Omphalotus_Subilludens"},
     {"device_type": "pencilbeam", "mbid": "3500000067471c42", "icmid": "f200000f189bf52d", "prod_id": "PB_13", "name": "Lumos"},
-
+    
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-051", "mbid": "b000000303342323", "icmid": "df00000f1713b42d", "prod_id": "DEgg2024-4-001", "name": "TBD_01"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-238", "mbid": "0700000302fc2c23", "icmid": "da00000f189b902d", "prod_id": "DEgg2024-4-002", "name": "TBD_02"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-263", "mbid": "1300000302ec1b23", "icmid": "d40000290cae632d", "prod_id": "DEgg2024-4-003", "name": "TBD_03"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-276", "mbid": "e700000303312423", "icmid": "d4000030c32ae02d", "prod_id": "DEgg2024-4-004", "name": "TBD_04"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-198", "mbid": "91000003031e7e23", "icmid": "63000030c346f42d", "prod_id": "DEgg2024-4-005", "name": "TBD_05"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4-006",   "mbid": "e500000301c67023", "icmid": "ec00000f1713932d", "prod_id": "DEgg2024-4-006", "name": "TBD_06"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-105", "mbid": "fd000003030fff23", "icmid": "e800000f17b4dd2d", "prod_id": "DEgg2021-0-001", "name": "TBD_07"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-260", "mbid": "9500000302fc0323", "icmid": "0100000ede1f8a2d", "prod_id": "DEgg2021-0-003", "name": "TBD_08"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4A-034",  "mbid": "3b00000301b5d823", "icmid": "aa00000f1885642d", "prod_id": "DEgg2021-0-004", "name": "TBD_09"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4A-037",  "mbid": "3e00000301c5ef23", "icmid": "7800000fd3c9c12d", "prod_id": "DEgg2021-0-005", "name": "TBD_10"},
+    
     {"device_type": "pocam", "mbid": "e80000006724ab42", "icmid": "e3000030c346502d", "prod_id": "PC_001_NTS", "name": "Giant_Tubeworm"},
-
+    
     {"device_type": "lom16", "mbid": "b3000000675fcc42", "icmid": "88000030c3438c2d", "prod_id": "LOM16_00_NTS", "name": "Rosemont_La_Petite_Patrie"},
     {"device_type": "lom16", "mbid": "", "icmid": "", "prod_id": "LOM16_09", "name": "Mike"},
     {"device_type": "lom18", "mbid": "5500000067786242", "icmid": "7000000f188c842d", "prod_id": "LOM18_01", "name": "Mokumokuren"},
