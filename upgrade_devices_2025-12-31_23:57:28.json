@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-12-31_00:48:04", 
+    "timestamp": "2025-12-31_23:57:28", 
     "comments": [
         "867 TOTAL devices", 
         "13 acoustic devices", 
@@ -204,7 +204,7 @@
             "mbid": "b000000303342323", 
             "icmid": "df00000f1713b42d", 
             "prod_id": "DEgg2024-4-001", 
-            "name": "TBD_01"
+            "name": "Psilodraco_Breviceps"
         }, 
         "da00000f189b902d": {
             "device_type": "degg", 
@@ -213,7 +213,7 @@
             "mbid": "0700000302fc2c23", 
             "icmid": "da00000f189b902d", 
             "prod_id": "DEgg2024-4-002", 
-            "name": "TBD_02"
+            "name": "Lithobates_catesbeianus"
         }, 
         "d40000290cae632d": {
             "device_type": "degg", 
@@ -222,7 +222,7 @@
             "mbid": "1300000302ec1b23", 
             "icmid": "d40000290cae632d", 
             "prod_id": "DEgg2024-4-003", 
-            "name": "TBD_03"
+            "name": "Perochirus_ateles"
         }, 
         "d4000030c32ae02d": {
             "device_type": "degg", 
@@ -231,7 +231,7 @@
             "mbid": "e700000303312423", 
             "icmid": "d4000030c32ae02d", 
             "prod_id": "DEgg2024-4-004", 
-            "name": "TBD_04"
+            "name": "Rana_pirica"
         }, 
         "63000030c346f42d": {
             "device_type": "degg", 
@@ -240,7 +240,7 @@
             "mbid": "91000003031e7e23", 
             "icmid": "63000030c346f42d", 
             "prod_id": "DEgg2024-4-005", 
-            "name": "TBD_05"
+            "name": "Black_Kite"
         }, 
         "ec00000f1713932d": {
             "device_type": "degg", 
@@ -249,7 +249,7 @@
             "mbid": "e500000301c67023", 
             "icmid": "ec00000f1713932d", 
             "prod_id": "DEgg2024-4-006", 
-            "name": "TBD_06"
+            "name": "Marbled_Rockcod"
         }, 
         "e800000f17b4dd2d": {
             "device_type": "degg", 
@@ -258,7 +258,7 @@
             "mbid": "fd000003030fff23", 
             "icmid": "e800000f17b4dd2d", 
             "prod_id": "DEgg2021-0-001", 
-            "name": "TBD_07"
+            "name": "Babina_subaspera"
         }, 
         "0100000ede1f8a2d": {
             "device_type": "degg", 
@@ -267,7 +267,7 @@
             "mbid": "9500000302fc0323", 
             "icmid": "0100000ede1f8a2d", 
             "prod_id": "DEgg2021-0-003", 
-            "name": "TBD_08"
+            "name": "Mauremys_mutica_mutica"
         }, 
         "aa00000f1885642d": {
             "device_type": "degg", 
@@ -276,7 +276,7 @@
             "mbid": "3b00000301b5d823", 
             "icmid": "aa00000f1885642d", 
             "prod_id": "DEgg2021-0-004", 
-            "name": "TBD_09"
+            "name": "Hynobius_hirosei"
         }, 
         "7800000fd3c9c12d": {
             "device_type": "degg", 
@@ -285,7 +285,7 @@
             "mbid": "3e00000301c5ef23", 
             "icmid": "7800000fd3c9c12d", 
             "prod_id": "DEgg2021-0-005", 
-            "name": "TBD_10"
+            "name": "Bufo_torrenticola"
         }, 
         "e3000030c346502d": {
             "device_type": "pocam", 

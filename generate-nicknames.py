@@ -24,10 +24,10 @@ def main():
             fat = json.load(jfile)
             for item in fat:
                 
-                if 'fatcat_uid' in item:
-                    prodid = item['fatcat_uid']
-                else:
-                    prodid = item['prod_id']
+                #if 'fatcat_uid' in item:
+                #    prodid = item['fatcat_uid']
+                #else:
+                prodid = item['prod_id']
                 prodids.append(prodid)
                 
                 if 'prod_date' in item:
@@ -114,18 +114,21 @@ def main():
         devices[icmid] = device
         if 'subdevices' in device:
             del device['subdevices']
-        trimmed[icmid] = device
+        trimmed[icmid] = {}
+        for key in ["device_type", "prod_date", "prod_id", "mbid", "mbsn", "name"]:
+            if key in device:
+                trimmed[icmid][key] = device[key]
         
     device_file = {
         'timestamp' : valid_date,
         'comments': comments,
         'devices': devices
     }
-    trimmed_file = {
-        'timestamp' : valid_date,
-        'comments': comments,
-        'devices': trimmed
-    }
+    #trimmed_file = {
+    #    'timestamp' : valid_date,
+    #    'comments': comments,
+    #    'devices': trimmed
+    #}
     
     print(f"\n{len(device_file['devices'])} total devices found")
     fname = 'upgrade_devices_'+valid_date+'.json' # fats
@@ -133,8 +136,8 @@ def main():
         with open(fname, 'w') as jfile:
             json.dump(device_file, jfile, separators=(', ', ': '), indent=4)
         with open('upgrade_devices.json', 'w') as jfile:
-            json.dump(trimmed_file, jfile, separators=(', ', ': '), indent=4)
-            
+            json.dump(trimmed, jfile, separators=(', ', ': '), indent=4)
+    
     return
 
     
