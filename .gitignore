@@ -6,4 +6,6 @@
 *.html
 *ipynb_checkpoints
 *egg-info
-output.*
+output*
+distribute.sh
+misc
