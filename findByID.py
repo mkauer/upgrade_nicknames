@@ -23,7 +23,11 @@ with open(nicknames, 'r') as jfile:
 
 if ID in gen1['devices']:
     pprint(gen1['devices'][ID])
-    
-if ID in upgrade['devices']:
-    pprint(upgrade['devices'][ID])
+elif 'devices' in upgrade:
+    if ID in upgrade['devices']:
+        pprint(upgrade['devices'][ID])
+    elif ID in upgrade:
+        pprint(upgrade[ID])
+else:
+    print('ID not found')
 
