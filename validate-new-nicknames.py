@@ -26,8 +26,6 @@ def main():
         gen1_names.append(name)
 
     icu_names = []
-    #for key in upgrade['devices']:
-    #    name = upgrade['devices'][key]['name']
     for key in upgrade:
         name = upgrade[key]['name']
         if name in gen1_names:

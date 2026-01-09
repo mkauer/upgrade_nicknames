@@ -9,7 +9,7 @@ from fatcat_db.mongoreader import MongoReader
 
 
 valid_date = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d_%H:%M:%S")
-write = 1
+write = 0
 
 def main():
     
