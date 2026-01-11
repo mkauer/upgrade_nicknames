@@ -135,7 +135,7 @@ def main():
     if write:
         with open(fname, 'w') as jfile:
             json.dump(device_file, jfile, separators=(', ', ': '), indent=4)
-        with open('upgrade_devices.json', 'w') as jfile:
+        with open('nicknames.json', 'w') as jfile:
             json.dump(trimmed, jfile, separators=(', ', ': '), indent=4)
     
     return

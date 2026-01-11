@@ -13,7 +13,7 @@ cmdparser.add_argument(dest='ID', help='give a device ID')
 args = cmdparser.parse_args()
 ID = args.ID
 
-newnames = os.path.join(PATH, 'upgrade_devices.json')
+newnames = os.path.join(PATH, 'nicknames.json')
 with open(newnames, 'r') as jfile:
     upgrade = json.load(jfile)
 
@@ -24,13 +24,8 @@ with open(nicknames, 'r') as jfile:
 if ID in gen1['devices']:
     pprint(gen1['devices'][ID])
 
-if 'devices' in upgrade:
-    devices = upgrade['devices']
-else:
-    devices = upgrade
-
-if ID in devices:
-    pprint(devices[ID])
+if ID in upgrade:
+    pprint(upgrade[ID])
 else:
     print('ID not found')
 
