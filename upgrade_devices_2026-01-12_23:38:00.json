@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-01-12_04:04:55", 
+    "timestamp": "2026-01-12_23:38:00", 
     "comments": [
         "867 TOTAL devices", 
         "13 acoustic devices", 
@@ -240,7 +240,7 @@
             "mbid": "91000003031e7e23", 
             "icmid": "63000030c346f42d", 
             "prod_id": "DEgg2024-4-005", 
-            "name": "Black_Kite"
+            "name": "Babina_subaspera"
         }, 
         "ec00000f1713932d": {
             "device_type": "degg", 
@@ -258,7 +258,7 @@
             "mbid": "fd000003030fff23", 
             "icmid": "e800000f17b4dd2d", 
             "prod_id": "DEgg2021-0-001", 
-            "name": "Babina_subaspera"
+            "name": "Black_Kite"
         }, 
         "0100000ede1f8a2d": {
             "device_type": "degg", 
@@ -276,7 +276,7 @@
             "mbid": "3b00000301b5d823", 
             "icmid": "aa00000f1885642d", 
             "prod_id": "DEgg2021-0-004", 
-            "name": "Hynobius_hirosei"
+            "name": "Northern_Giant_Petrel"
         }, 
         "7800000fd3c9c12d": {
             "device_type": "degg", 
@@ -285,7 +285,7 @@
             "mbid": "3e00000301c5ef23", 
             "icmid": "7800000fd3c9c12d", 
             "prod_id": "DEgg2021-0-005", 
-            "name": "Bufo_torrenticola"
+            "name": "Hynobius_hirosei"
         }, 
         "e3000030c346502d": {
             "device_type": "pocam", 

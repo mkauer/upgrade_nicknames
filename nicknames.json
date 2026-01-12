@@ -193,7 +193,7 @@
         "prod_id": "DEgg2024-4-005", 
         "mbid": "91000003031e7e23", 
         "mbsn": "4.1-198", 
-        "name": "Black_Kite"
+        "name": "Babina_subaspera"
     }, 
     "ec00000f1713932d": {
         "device_type": "degg", 
@@ -209,7 +209,7 @@
         "prod_id": "DEgg2021-0-001", 
         "mbid": "fd000003030fff23", 
         "mbsn": "4.1-105", 
-        "name": "Babina_subaspera"
+        "name": "Black_Kite"
     }, 
     "0100000ede1f8a2d": {
         "device_type": "degg", 
@@ -225,7 +225,7 @@
         "prod_id": "DEgg2021-0-004", 
         "mbid": "3b00000301b5d823", 
         "mbsn": "4A-034", 
-        "name": "Hynobius_hirosei"
+        "name": "Northern_Giant_Petrel"
     }, 
     "7800000fd3c9c12d": {
         "device_type": "degg", 
@@ -233,7 +233,7 @@
         "prod_id": "DEgg2021-0-005", 
         "mbid": "3e00000301c5ef23", 
         "mbsn": "4A-037", 
-        "name": "Bufo_torrenticola"
+        "name": "Hynobius_hirosei"
     }, 
     "e3000030c346502d": {
         "device_type": "pocam", 

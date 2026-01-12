@@ -26,7 +26,7 @@ def main():
         print('no connection')
         return
     
-    with open('upgrade_devices.json', 'r') as jfile:
+    with open('nicknames.json', 'r') as jfile:
         devices = json.load(jfile, object_pairs_hook=check_dupes)
     
     for icmid in devices:

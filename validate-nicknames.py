@@ -6,12 +6,12 @@ import argparse
 
 def main():
     
-    cmdparser = argparse.ArgumentParser()
-    cmdparser.add_argument(dest='devices', help='give Upgrade devices json file')
-    args = cmdparser.parse_args()
+    #cmdparser = argparse.ArgumentParser()
+    #cmdparser.add_argument(dest='devices', help='give Upgrade devices json file')
+    #args = cmdparser.parse_args()
 
-    newnames = args.devices
-    with open(newnames, 'r') as jfile:
+    #newnames = args.devices
+    with open('nicknames.json', 'r') as jfile:
         upgrade = json.load(jfile, object_pairs_hook=check_dupes)
 
     nicknames = 'gen1-nicknames.json'
