@@ -5529,6 +5529,14 @@
         "mbsn": "4.1-066", 
         "name": "Nodosaurid_Ankylosaur"
     }, 
+    "0a00000fd3c1f92d": {
+        "device_type": "degg", 
+        "prod_date": "2021-07-28", 
+        "prod_id": "DEgg2021-3-077", 
+        "mbid": "_TBD_", 
+        "mbsn": "4.1-135", 
+        "name": "Bufo_torrenticola"
+    }, 
     "2100000f170c842d": {
         "device_type": "degg", 
         "prod_date": "2020-12-01", 
@@ -6344,14 +6352,6 @@
         "mbid": "25000003030fdd23", 
         "mbsn": "4.1-154", 
         "name": "Blackfin_Icefish"
-    }, 
-    "0a00000fd3c1f92d": {
-        "device_type": "degg", 
-        "prod_date": "2021-04-15", 
-        "prod_id": "DEgg2020-1-029", 
-        "mbid": "2800000301b5d623", 
-        "mbsn": "4A-041", 
-        "name": "Northern_Giant_Petrel"
     }, 
     "9c0000290cb1732d": {
         "device_type": "degg", 
