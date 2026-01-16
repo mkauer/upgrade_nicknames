@@ -53,7 +53,8 @@ def main():
             for key in devices:
                 if mbid == devices[key]["mbid"]:
                     prod_id = devices[key]["prod_id"]
-            print(f'{date} STF mbid [{mbid}] {prod_id}  !=  nicknames mbid [{devices[icmid]["mbid"]}] {devices[icmid]["prod_id"]}')
+            print(f"{date} STF mbid [{mbid}] {prod_id}  !=  "
+                  f"nicknames mbid [{devices[icmid]["mbid"]}] {devices[icmid]["prod_id"]}")
             
         
     return

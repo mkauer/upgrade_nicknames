@@ -1,0 +1,83 @@
+DMICE2	0	3	37793e5448e1	DMICE002	dmice	01A	Dead DOM
+Claves	5	21	473dec4ca2fc	UP8P3228	ichub05	22B	Dead DOM
+Brhaspati	7	35	0a21a4b86298	UP6Y4438			Dead DOM
+Cookie_Monster	7	36	2320fe51cc91	TP9P3755			Dead DOM
+Foo_Foo	7	37	eb790ff351bc	UP9P3732			Dead DOM
+Battle_Cry	7	38	36a1c1fa2101	TP8P3661			Dead DOM
+Heavenly	7	39	b80eef4219e3	UP8P3544			Dead DOM
+Dead_Tom	7	40	e52acc7a09ed	TP9P3725			Dead DOM
+Are	7	41	549d926550e2	UP8P3602			Dead DOM
+Balderdash	7	42	e961eeeff5ba	TP8P3665			Dead DOM
+Pepe_the_King_Prawn	7	45	7f7030c309ea	UP9P3728			Dead DOM
+Killington	7	46	d4db9f1b764d	TP8P3593			Dead DOM
+Euonymus_Alatus	8	59	ed03a2da07ee	UP8Y4992			Dead DOM
+inculcate	8	60	e5135bc12f2d	TP9P3979			Dead DOM
+Daryan	9	15	dc9a8b792fa5	UP7Y4714	ichub09	13B	Dead DOM
+Scaphoideum	11	1	695cd3ff41b0	UP7Y4750			Dead DOM
+Nissan	11	2	18b5de34cbcd	TP7P2705			Dead DOM
+Broach	13	36	541ce367cb69	TP8P3163	ichub13	41A	Dead DOM
+Eslamabad	18	45	e47fe7fd8f8f	UP7Y4688			Dead DOM
+Triquetrum	18	46	7a599f9a8bbe	TP7Y4747			Dead DOM
+Tetilla	24	56	3c8b388c2f67	TP8Y5037			Dead DOM
+Melian	26	46	482caa2a21b3	TP7P2227			Dead DOM
+Vicuna	27	7	af6f51ac422c	UP8P3360			Dead DOM
+Hu	27	8	9d6d1cf2ce29	TP8P3313			Dead DOM
+Behbahan	28	41	806c69b52acd	UP7Y4636			Dead DOM
+Humerus	28	42	0762df7a7bd1	TP7Y4739			Dead DOM
+Auroraphobia	29	59	e60b983e412e	UP5P0656			Dead DOM
+Nix	29	60	347fd0110547	TP5P0581			Dead DOM
+Peugeot_505	30	23	f6b62d03a818	UP5Y0178			Dead DOM
+Rowan	30	60	7f01563a42c2	TP4P0137	ichub30	71A	Dead DOM
+Dromornis	32	57	173ce0197646	UP9P3838			Dead DOM
+Sde_Boker	32	58	1dcae00beda8	TP7P2629			Dead DOM
+Skorpionen	33	6	35115872d047	TP7H8151	ichub33	02A	Dead DOM
+Chipsat	34	11	89743d73f2ca	UP7Y4912			Dead DOM
+Diaphyse	34	12	6034b2763d8b	TP7Y4741			Dead DOM
+Gianni_Schicchi	34	13	423d7217d354	UP7Y4798			Dead DOM
+Bohnebeitel	34	14	361943d50d05	TP7P2525			Dead DOM
+Frihult	34	15	e28027ef8e7e	UP7H8020			Dead DOM
+Gymnastics	34	17	62bf74a9ea3b	UP7P2492			Dead DOM
+Gickel	34	22	43aea87c8797	TP7P2573			Dead DOM
+Liljeholmen	39	22	18bdaac228fe	TP5H0167			Dead DOM
+Hydrogen	39	61	9ed5742a784d	AP4P0073	ithub02	72A	Dead DOM
+Leif_Eriksson	40	33	e3745bed763b	UP4H0022	ichub40	40B	Dead DOM
+Carrot	40	34	b0e8db8dd9c1	TP4P0171	ichub40	40A	Dead DOM
+Juneberry	40	51	ce9692f580c9	UP4P0086			Dead DOM
+Alfa_Romeo_Spider	40	52	0a9dc8de00c3	TP5Y0171			Dead DOM
+Bancha	42	47	1b73400bad28	UP8Y5026			Dead DOM
+Misu	42	48	96bcf4ac94fd	TP8Y5029			Dead DOM
+Mirkwood	44	25	3f46a9bb0df4	UP7P2246			Dead DOM
+Pink	44	26	407106da7aab	TP6P1597			Dead DOM
+Homeopatix	44	47	8343fa265872	UP7Y4524			Dead DOM
+Mad_Hatter	44	48	8b622089debf	TP7P2207			Dead DOM
+Dol_Guldur	45	19	df9a3d818c99	UP7P2226	ichub45	21B	Dead DOM
+Kemps_Card	47	55	014614881c4a	UP6P1412			Dead DOM
+Ensta	47	56	1d28b6000d69	TP5H0203			Dead DOM
+Fusilli	49	55	896453b19189	UP4P0106			Dead DOM
+Vermicelli	49	56	08b13a790a37	TP4P0107			Dead DOM
+Ocelot	50	36	e7c5daacec14	TP4P0229			Dead DOM
+Bryozoan	53	17	71f2b6c80a9a	UP6P1742			Dead DOM
+Fa	53	18	99439c87eaad	TP6Y4233			Dead DOM
+Garbanzo_bean	54	47	a5b57a6dfa0d	UP4P0184			Dead DOM
+Essex_6	59	45	cd573e1e4b1a	UP5Y0084	ichub59	52B	Dead DOM
+English_Muffin	62	66	0d654a32652c	SCIN0004	ithub08	33A	Dead DOM
+New_York	66	33	4d38b217afdd	UP5P1032			Dead DOM
+Dou_Mu	66	34	e036bfeee59e	TP6Y4461			Dead DOM
+Alpaca	66	45	119036837ee8	UP4P0240			Dead DOM
+Tallahassee	66	46	9e2f2d9c60f4	TP5P0883			Dead DOM
+Gulkana_River	67	49	ada28eff60fd	UP6P1464	ichub67	60B	Dead DOM
+Hogatza_River	67	50	e44c73438cb0	TP6P1497	ichub67	60A	Dead DOM
+Black	69	23	29017f91d720	UP5P0948			Dead DOM
+Magenta	69	24	919365782abe	TP6P1615			Dead DOM
+Niue	69	44	59531696fbfd	TP6P1909			Dead DOM
+New_Britain	69	47	123565623beb	UP6P1844			Dead DOM
+Rawaki	69	48	3a5fbb476dba	TP6P1905			Dead DOM
+Beaver	71	39	41386e7b4996	UP4P0268			Dead DOM
+Immunology	74	9	179c5e47ff07	UP5P0652			Dead DOM
+Ligyrophobia	74	17	0911f5de6d46	UP5P0596	ichub74	20B	Dead DOM
+Springfield	74	18	119f83d8b029	TP5P0737	ichub74	20A	Dead DOM
+Orc	74	61	894993470840	AP5P0415	ithub02	20A	Dead DOM
+Wonambi	79	55	44e9bf0ebdac	UP9P3862			Dead DOM
+Cave_Lion	79	56	9bcf05fe4c28	TP9P3827			Dead DOM
+Gaffelfibbla	86	27	26b88b018e15	UL9H6110			Dead DOM
+Dill	86	28	d5b6db9c58d7	TL9H6079			Dead DOM
