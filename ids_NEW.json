@@ -34,11 +34,12 @@
     {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-198", "mbid": "91000003031e7e23", "icmid": "63000030c346f42d", "prod_id": "DEgg2024-4-005", "name": "Babina_subaspera"},
     {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4-006",   "mbid": "e500000301c67023", "icmid": "ec00000f1713932d", "prod_id": "DEgg2024-4-006", "name": "Marbled_Rockcod"},
     {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-105", "mbid": "fd000003030fff23", "icmid": "e800000f17b4dd2d", "prod_id": "DEgg2021-0-001", "name": "Black_Kite"},
-    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-260", "mbid": "9500000302fc0323", "icmid": "0100000ede1f8a2d", "prod_id": "DEgg2021-0-003", "name": "Mauremys_mutica_mutica"},
+    {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4.1-260", "mbid": "9500000302fc0323", "icmid": "0100000ede1f8a2d", "prod_id": "DEgg2021-0-003", "name": "Ramphotyphlops_braminus"},
     {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4A-034",  "mbid": "3b00000301b5d823", "icmid": "aa00000f1885642d", "prod_id": "DEgg2021-0-004", "name": "Northern_Giant_Petrel"},
     {"device_type": "degg", "prod_date": "2025-01-01", "mbsn": "4A-037",  "mbid": "3e00000301c5ef23", "icmid": "7800000fd3c9c12d", "prod_id": "DEgg2021-0-005", "name": "Hynobius_hirosei"},
     
     {"device_type": "pocam", "mbid": "e80000006724ab42", "icmid": "e3000030c346502d", "prod_id": "PC_001_NTS", "name": "Giant_Tubeworm"},
+    {"device_type": "pocam", "mbid": "TBD", "icmid": "TBD", "prod_id": "PC_029", "name": "TBD"},
     
     {"device_type": "lom16", "mbid": "b3000000675fcc42", "icmid": "88000030c3438c2d", "prod_id": "LOM16_00_NTS", "name": "Rosemont_La_Petite_Patrie"},
     {"device_type": "lom16", "mbid": "", "icmid": "", "prod_id": "LOM16_09", "name": "Mike"},

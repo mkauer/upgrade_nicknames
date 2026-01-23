@@ -217,7 +217,7 @@
         "prod_id": "DEgg2021-0-003", 
         "mbid": "9500000302fc0323", 
         "mbsn": "4.1-260", 
-        "name": "Mauremys_mutica_mutica"
+        "name": "Ramphotyphlops_braminus"
     }, 
     "aa00000f1885642d": {
         "device_type": "degg", 
@@ -5344,6 +5344,14 @@
         "mbid": "6100000301b54d23", 
         "mbsn": "4.1-009", 
         "name": "Snow_Petrel"
+    }, 
+    "ff00000f171e282d": {
+        "device_type": "degg", 
+        "prod_date": "2021-09-30", 
+        "prod_id": "DEgg2021-3-132", 
+        "mbid": "8c00000302e62123", 
+        "mbsn": "4.1-268", 
+        "name": "Mauremys_mutica_mutica"
     }, 
     "0a000030c358512d": {
         "device_type": "degg", 
