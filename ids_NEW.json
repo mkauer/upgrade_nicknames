@@ -85,8 +85,8 @@
     
     {"device_type": "seismometer", "mbid": "09000000672b7642", "icmid": "81000030c34fe92d", "prod_id": "SM_01", "name": "Kent_Anderson"},
     {"device_type": "seismometer", "mbid": "7400000067495542", "icmid": "d1000030c307fd2d", "prod_id": "SM_03", "name": "Edward_Kromer"},
-    {"device_type": "seismometer", "mbid": "9f00000067608a42", "icmid": "f3000030c24c6a2d", "prod_id": "SM_04", "name": "Charles_Hutt"},
-    {"device_type": "seismometer", "mbid": "17000000674b8a42", "icmid": "21000030c307ba2d", "prod_id": "SM_05", "name": "Tyler_Storm"},
+    {"device_type": "seismometer", "mbid": "9f00000067608a42", "icmid": "f3000030c24c6a2d", "prod_id": "SM_04", "name": "Dr_Bob"},
+    {"device_type": "seismometer", "mbid": "17000000674b8a42", "icmid": "21000030c307ba2d", "prod_id": "SM_05", "name": "T_Storm"},
 
     {"device_type": "swedencamera", "mbid": "2e00000067464742", "icmid": "c8000030c345882d", "prod_id": "SC_NTS", "name": "SweCam_NTS"},
     {"device_type": "swedencamera", "mbid": "c80000006721ff42", "icmid": "89000030c2fd612d", "prod_id": "SC_01", "name": "SweCam_01"},

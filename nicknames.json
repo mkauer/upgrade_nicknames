@@ -241,6 +241,12 @@
         "mbid": "e80000006724ab42", 
         "name": "Giant_Tubeworm"
     }, 
+    "TBD": {
+        "device_type": "pocam", 
+        "prod_id": "PC_029", 
+        "mbid": "TBD", 
+        "name": "TBD"
+    }, 
     "88000030c3438c2d": {
         "device_type": "lom16", 
         "prod_id": "LOM16_00_NTS", 
@@ -473,13 +479,13 @@
         "device_type": "seismometer", 
         "prod_id": "SM_04", 
         "mbid": "9f00000067608a42", 
-        "name": "Charles_Hutt"
+        "name": "Dr_Bob"
     }, 
     "21000030c307ba2d": {
         "device_type": "seismometer", 
         "prod_id": "SM_05", 
         "mbid": "17000000674b8a42", 
-        "name": "Tyler_Storm"
+        "name": "T_Storm"
     }, 
     "c8000030c345882d": {
         "device_type": "swedencamera", 
