@@ -17,7 +17,7 @@ def main():
     args = cmdparser.parse_args()
 
     # open ssh tunnel to mongo port
-    #if args.tunnel: tunnel = Tunnel()
+    if args.tunnel: tunnel = Tunnel()
 
     # connect to mongo
     mongo = MongoReader(database='production_calibration',
