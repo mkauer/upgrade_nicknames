@@ -5049,8 +5049,8 @@
     }, 
     "0000000ede0f862d": {
         "device_type": "degg", 
-        "prod_date": "2021-10-05", 
-        "prod_id": "DEgg2021-3-139", 
+        "prod_date": "2021-10-19", 
+        "prod_id": "DEgg2021-3-147", 
         "mbid": "1200000302ebd123", 
         "mbsn": "4.1-258", 
         "name": "Chelydra_serpentina"
@@ -5406,14 +5406,6 @@
         "mbid": "a000000302fb5e23", 
         "mbsn": "4.1-114", 
         "name": "Antarctic_Jonasfish"
-    }, 
-    "3300000f17330a2d": {
-        "device_type": "degg", 
-        "prod_date": "2020-12-21", 
-        "prod_id": "DEgg2020-2-011", 
-        "mbid": "e900000301db2623", 
-        "mbsn": "4.1-061", 
-        "name": "Black_Bellied_Storm_Petrel"
     }, 
     "3d000030c358502d": {
         "device_type": "degg", 
@@ -5910,14 +5902,6 @@
         "mbid": "bf00000302fc7523", 
         "mbsn": "4.1-188", 
         "name": "Oriental_White_Stork"
-    }, 
-    "8200000ede1fb82d": {
-        "device_type": "degg", 
-        "prod_date": "2021-10-19", 
-        "prod_id": "DEgg2021-3-147", 
-        "mbid": "d000000302e68123", 
-        "mbsn": "4.1-206", 
-        "name": "Goniurosaurus_kuroiwae_orientalis"
     }, 
     "75000009b8d96a2d": {
         "device_type": "degg", 

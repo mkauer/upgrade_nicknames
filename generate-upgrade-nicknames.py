@@ -25,9 +25,9 @@ def main():
             fat = json.load(jfile)
             for item in fat:
                 
-                #if 'fatcat_uid' in item:
-                #    prodid = item['fatcat_uid']
-                #else:
+                if 'prod_id' not in item:
+                    continue
+                
                 prodid = item['prod_id']
                 prodids.append(prodid)
                 
