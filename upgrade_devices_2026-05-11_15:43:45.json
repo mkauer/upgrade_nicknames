@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-08_16:54:37", 
+    "timestamp": "2026-05-11_15:43:45", 
     "comments": [
         "867 TOTAL devices", 
         "13 acoustic devices", 
@@ -6284,10 +6284,11 @@
             "device_type": "degg", 
             "WRONG_fatcat_uid": "DEgg2021-3-139_v1", 
             "WRONG_prod_date": "2021-10-05", 
+            "WRONG_name": "Chelydra_serpentina", 
+            "WRONG_prod_id": "DEgg2021-3-139", 
             "fatcat_uid": "DEgg2021-3-147_v1", 
             "prod_date": "2021-10-19", 
-            "name": "Chelydra_serpentina", 
-            "WRONG_prod_id": "DEgg2021-3-139", 
+            "name": "Goniurosaurus_kuroiwae_orientalis", 
             "prod_id": "DEgg2021-3-147", 
             "mbsn": "4.1-258", 
             "mbid": "1200000302ebd123", 
