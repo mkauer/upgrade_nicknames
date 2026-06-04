@@ -113,8 +113,8 @@ def main():
         if icmid in devices:
             print(f'ERROR: [{icmid}] already exists')
         devices[icmid] = device
-        if 'subdevices' in device:
-            del device['subdevices']
+        #if 'subdevices' in device:
+        #    del device['subdevices']
         trimmed[icmid] = {}
         for key in ["device_type", "prod_date", "prod_id", "mbid", "mbsn", "name"]:
             if key in device:
@@ -125,11 +125,6 @@ def main():
         'comments': comments,
         'devices': devices
     }
-    #trimmed_file = {
-    #    'timestamp' : valid_date,
-    #    'comments': comments,
-    #    'devices': trimmed
-    #}
     
     print(f"\n{len(device_file['devices'])} total devices found")
     fname = 'upgrade_devices_'+valid_date+'.json' # fats

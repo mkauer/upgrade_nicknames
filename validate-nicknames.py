@@ -2,15 +2,10 @@
 
 import sys
 import json
-import argparse
+#import argparse
 
 def main():
     
-    #cmdparser = argparse.ArgumentParser()
-    #cmdparser.add_argument(dest='devices', help='give Upgrade devices json file')
-    #args = cmdparser.parse_args()
-
-    #newnames = args.devices
     with open('nicknames.json', 'r') as jfile:
         upgrade = json.load(jfile, object_pairs_hook=check_dupes)
 
@@ -19,8 +14,8 @@ def main():
         gen1 = json.load(jfile, object_pairs_hook=check_dupes)
 
     gen1_names = []
-    for key in gen1['devices']:
-        name = gen1['devices'][key]['name']
+    for key in gen1:
+        name = gen1[key]['name']
         if name in gen1_names:
             print(f'Gen1 [{name}] found in gen1_names')
         gen1_names.append(name)

@@ -21,10 +21,9 @@ nicknames = os.path.join(PATH, 'gen1-nicknames.json')
 with open(nicknames, 'r') as jfile:
     gen1 = json.load(jfile)
 
-if ID in gen1['devices']:
-    pprint(gen1['devices'][ID])
-
-if ID in upgrade:
+if ID in gen1:
+    pprint(gen1[ID])
+elif ID in upgrade:
     pprint(upgrade[ID])
 else:
     print('ID not found')
